@@ -12,22 +12,15 @@ struct EmojiDetailView: View {
     @StateObject var vm: EmojiDetailViewModel
     
     var body: some View {
-        ZStack {
-            VStack {
-                VStack {
-                    Section {
-                        Text("\(vm.emoji)")
-                            .font(.largeTitle)
-                    }
-                }
-                Section {
-                    Text("\(vm.description)").font(.largeTitle)
-                    Text("Category: \(vm.categroy)")
-                    Text("Unicode Version: \(vm.unicodeVersion)")
-                    Text("iOS Version: \(vm.iosVersion)")
-                }
-            }
+        
+    VStack {
+            Text("\(vm.emoji)").font(.system(size: 150))
+            Text("\(vm.description)").font(.largeTitle).bold()
+            Text("**Category:** \(vm.categroy)")
+            Text("**Unicode Version:** \(vm.unicodeVersion)")
+            Text("**iOS Version:** \(vm.iosVersion)")
         }
+        .padding(.bottom, 400)
     }
 }
 

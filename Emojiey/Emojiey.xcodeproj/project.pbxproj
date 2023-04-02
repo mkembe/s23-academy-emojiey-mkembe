@@ -19,6 +19,7 @@
 		B2FA695F29D97E970006EC8C /* EmojiLibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA695E29D97E970006EC8C /* EmojiLibraryViewModel.swift */; };
 		B2FA696129D985910006EC8C /* EmojiDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA696029D985910006EC8C /* EmojiDetailView.swift */; };
 		B2FA696529D986590006EC8C /* EmojiDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA696429D986590006EC8C /* EmojiDetailViewModel.swift */; };
+		B2FA696929DA1D640006EC8C /* EmojiSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA696829DA1D640006EC8C /* EmojiSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		B2FA695E29D97E970006EC8C /* EmojiLibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiLibraryViewModel.swift; sourceTree = "<group>"; };
 		B2FA696029D985910006EC8C /* EmojiDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDetailView.swift; sourceTree = "<group>"; };
 		B2FA696429D986590006EC8C /* EmojiDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDetailViewModel.swift; sourceTree = "<group>"; };
+		B2FA696829DA1D640006EC8C /* EmojiSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				B2FA695929D97DCF0006EC8C /* EmojiListView.swift */,
 				B2FA696029D985910006EC8C /* EmojiDetailView.swift */,
+				B2FA696829DA1D640006EC8C /* EmojiSearchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				B2FA695129D977890006EC8C /* Emoji.swift in Sources */,
 				B2FA696529D986590006EC8C /* EmojiDetailViewModel.swift in Sources */,
 				B2FA695A29D97DCF0006EC8C /* EmojiListView.swift in Sources */,
+				B2FA696929DA1D640006EC8C /* EmojiSearchView.swift in Sources */,
 				B2FA696129D985910006EC8C /* EmojiDetailView.swift in Sources */,
 				B2FA695F29D97E970006EC8C /* EmojiLibraryViewModel.swift in Sources */,
 				B2FA694129D976140006EC8C /* ContentView.swift in Sources */,
